@@ -8,7 +8,7 @@
 
 | Item | Valor |
 |------|-------|
-| **Versão** | 0.1.3.post5 |
+| **Versêo** | 0.1.3.post5 |
 | **Licença** | MIT |
 | **Python** | >= 3.11 |
 | **Arquivos .py** | 48 |
@@ -24,9 +24,9 @@
 | `agent/` | 2.162 | Loop principal do agente, contexto, memória, skills e tools |
 | `channels/` | 1.670 | Integrações: Telegram, WhatsApp, Discord, Feishu, DingTalk |
 | `cli/` | 764 | Interface de linha de comando (Typer + readline) |
-| `providers/` | 662 | Abstração de LLMs (12+ provedores via LiteLLM) |
+| `providers/` | 662 | Abstraçêo de LLMs (12+ provedores via LiteLLM) |
 | `cron/` | 411 | Agendamento de tarefas (cron, intervalos, timestamps) |
-| `config/` | 288 | Configuração com Pydantic (`~/.nanobot/config.json`) |
+| `config/` | 288 | Configuraçêo com Pydantic (`~/.nanobot/config.json`) |
 | `session/` | 207 | Histórico de conversas (JSONL por canal/chat) |
 | `heartbeat/` | 135 | Tarefas periódicas a cada 30 min |
 | `bus/` | 124 | Message bus assíncrono (desacoplamento canal ↔ agente) |
@@ -49,20 +49,20 @@
 
 ## Componentes Externos
 
-- **`bridge/`**: Aplicação TypeScript/Node.js (Baileys + WebSocket) para integração com WhatsApp
+- **`bridge/`**: Aplicaçêo TypeScript/Node.js (Baileys + WebSocket) para integraçêo com WhatsApp
 - **`tests/`**: Apenas 1 arquivo de testes (`test_tool_validation.py`) — cobertura de testes é muito baixa
-- **`workspace/`**: Templates de configuração do agente (AGENTS.md, SOUL.md, USER.md, TOOLS.md, HEARTBEAT.md)
+- **`workspace/`**: Templates de configuraçêo do agente (AGENTS.md, SOUL.md, USER.md, TOOLS.md, HEARTBEAT.md)
 
 ---
 
 ## Pontos Fortes
 
 1. **Código extremamente compacto** — fácil de entender e modificar
-2. **Arquitetura limpa** — separação clara de responsabilidades
+2. **Arquitetura limpa** — separaçêo clara de responsabilidades
 3. **Extensível** — adicionar novo provider = 2 passos; skills = um arquivo Markdown
-4. **Provider Registry** — padrão declarativo elegante em `registry.py`
+4. **Provider Registry** — padrêo declarativo elegante em `registry.py`
 
-## Pontos de Atenção
+## Pontos de Atençêo
 
 1. **Cobertura de testes mínima** — apenas 88 linhas de testes para 6.600+ de código
 2. **Sem type hints completos** em vários módulos

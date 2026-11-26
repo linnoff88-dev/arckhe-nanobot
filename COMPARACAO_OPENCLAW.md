@@ -1,12 +1,12 @@
-# Comparação: nanobot vs OpenClaw (Clawdbot)
+# Comparaçêo: nanobot vs OpenClaw (Clawdbot)
 
 ## Contexto
 
-**OpenClaw** (ex-Clawdbot, ex-Moltbot) é um assistente de IA pessoal massivo criado por Peter Steinberger. Com 430k+ linhas de código e 173k+ stars no GitHub, é um dos projetos open-source de IA que mais crescem. **Nanobot** é uma reimplementação ultra-leve inspirada nele, feita pela HKUDS (HKU Data Science).
+**OpenClaw** (ex-Clawdbot, ex-Moltbot) é um assistente de IA pessoal massivo criado por Peter Steinberger. Com 430k+ linhas de código e 173k+ stars no GitHub, é um dos projetos open-source de IA que mais crescem. **Nanobot** é uma reimplementaçêo ultra-leve inspirada nele, feita pela HKUDS (HKU Data Science).
 
 ---
 
-## Comparação Direta
+## Comparaçêo Direta
 
 | Aspecto | OpenClaw | nanobot |
 |---------|----------|---------|
@@ -23,18 +23,18 @@
 
 ---
 
-## Segurança: Comparação
+## Segurança: Comparaçêo
 
 | Aspecto | OpenClaw | nanobot |
 |---------|----------|---------|
-| **Sandboxing** | Docker por agente/sessão (opt-in) | Nenhum (roda direto no host) |
+| **Sandboxing** | Docker por agente/sessêo (opt-in) | Nenhum (roda direto no host) |
 | **Isolamento** | Container/OS-level | Application-level apenas |
-| **Permissões de tools** | Granulares: allow/deny lists, aprovação manual, safelist de binários | Blacklist regex básica de comandos |
-| **Prompt injection** | Vulnerável (CVE-2026-25253 conhecida), mas com mitigações | Sem proteção alguma |
-| **Autenticação** | API keys, setup-token, pairing codes | API keys + allowFrom por canal |
-| **Default** | Mais restritivo, mas sandbox opt-in | Aberto por padrão (allow all) |
+| **Permissões de tools** | Granulares: allow/deny lists, aprovaçêo manual, safelist de binários | Blacklist regex básica de comandos |
+| **Prompt injection** | Vulnerável (CVE-2026-25253 conhecida), mas com mitigações | Sem proteçêo alguma |
+| **Autenticaçêo** | API keys, setup-token, pairing codes | API keys + allowFrom por canal |
+| **Default** | Mais restritivo, mas sandbox opt-in | Aberto por padrêo (allow all) |
 | **Credenciais** | Armazenamento via config files | Texto plano em JSON |
-| **SSRF** | Mitigações parciais | Sem proteção |
+| **SSRF** | Mitigações parciais | Sem proteçêo |
 | **CVEs conhecidos** | Sim (documentados e corrigidos) | Nenhum reportado (projeto novo) |
 | **Testes de segurança** | Sim, auditoria comunitária ativa | 0 testes de segurança |
 
@@ -52,9 +52,9 @@
 - Memória com vector index + Markdown (SQLite)
 
 ### nanobot
-- Agent loop simples (LLM ↔ execução de ferramentas)
+- Agent loop simples (LLM ↔ execuçêo de ferramentas)
 - Sistema de message bus assíncrono para roteamento
-- Sessões de conversação persistentes (JSONL)
+- Sessões de conversaçêo persistentes (JSONL)
 - Agentes background via spawn tool
 - Provider registry declarativo para múltiplos LLMs
 - Skills em Markdown com YAML frontmatter
@@ -64,12 +64,12 @@
 ## Memória e Sessões
 
 ### OpenClaw
-- Memórias em Markdown puro (não vector databases opacas)
+- Memórias em Markdown puro (nêo vector databases opacas)
 - Storage per-agent via SQLite
 - Vector index sobre arquivos markdown
-- Compactação automática de sessão
+- Compactaçêo automática de sessêo
 - Cross-session memory automática
-- Lê "hoje" e "ontem" no início da sessão
+- Lê "hoje" e "ontem" no início da sessêo
 
 ### nanobot
 - Sessões salvas em JSONL (`~/.nanobot/session/`)
@@ -82,17 +82,17 @@
 
 ## Veredito Comparativo de Segurança
 
-**OpenClaw** é mais seguro em termos absolutos — oferece Docker sandboxing, permissões granulares e aprovação manual de comandos perigosos. Porém, sua complexidade (430k linhas) torna a auditoria difícil e já teve CVEs reportados (ex: data leakage via prompt injection).
+**OpenClaw** é mais seguro em termos absolutos — oferece Docker sandboxing, permissões granulares e aprovaçêo manual de comandos perigosos. Porém, sua complexidade (430k linhas) torna a auditoria difícil e já teve CVEs reportados (ex: data leakage via prompt injection).
 
 **nanobot** é mais fraco em segurança implementada, mas sua simplicidade (~3.400 linhas) torna a auditoria trivial e o risco de vulnerabilidades escondidas é menor. O tradeoff é claro: menos features de segurança, mas código totalmente legível.
 
 ---
 
-## Recomendação por Cenário
+## Recomendaçêo por Cenário
 
-| Cenário | Melhor opção |
+| Cenário | Melhor opçêo |
 |---------|-------------|
-| Produção com usuários externos | OpenClaw (com Docker sandbox) |
+| Produçêo com usuários externos | OpenClaw (com Docker sandbox) |
 | Pesquisa/desenvolvimento pessoal | nanobot (auditável, leve) |
 | Muitas integrações de chat | OpenClaw (50+ canais) |
 | Adicionar novos LLM providers | nanobot (2 passos, 11+ nativos) |

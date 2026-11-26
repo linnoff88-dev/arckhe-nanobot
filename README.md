@@ -1,56 +1,56 @@
-﻿<div align="center">
+ï»¿<div align="center">
   <img src="nanobot_logo.png" alt="nanobot" width="500">
   <h1>nanobot: Ultra-Lightweight Personal AI Assistant</h1>
   <p>
-    <img src="https://img.shields.io/badge/python-â‰¥3.11-blue" alt="Python">
+    <img src="https://img.shields.io/badge/python-ê¢â°Â¥3.11-blue" alt="Python">
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-    <a href="https://inematds.github.io/nanobot/"><img src="https://img.shields.io/badge/ðŸ“–_DocumentaÃ§Ã£o_Completa-GitHub_Pages-00d4ff?style=for-the-badge&logo=github" alt="Docs"></a>
+    <a href="https://inematds.github.io/nanobot/"><img src="https://img.shields.io/badge/ê°Å¸ââ_DocumentaêÂ§êÂ£o_Completa-GitHub_Pages-00d4ff?style=for-the-badge&logo=github" alt="Docs"></a>
   </p>
 </div>
 
-ðŸˆ **nanobot** is an **ultra-lightweight** personal AI assistant â€” fork from the [original project (HKUDS/nanobot)](https://github.com/HKUDS/nanobot)
+ê°Å¸ÂË **nanobot** is an **ultra-lightweight** personal AI assistant ê¢â¬â fork from the [original project (HKUDS/nanobot)](https://github.com/HKUDS/nanobot)
 
-âš¡ï¸ Delivers core agent functionality in just **~4,000** lines of code.
+ê¢Å¡Â¡ê¯Â¸Â Delivers core agent functionality in just **~4,000** lines of code.
 
-> **ðŸ“– [DocumentaÃ§Ã£o completa no GitHub Pages](https://inematds.github.io/nanobot/)** â€” Arquitetura, Guia de InstalaÃ§Ã£o, Docker e ReferÃªncia TÃ©cnica
+> **ê°Å¸ââ [DocumentaêÂ§êÂ£o completa no GitHub Pages](https://inematds.github.io/nanobot/)** ê¢â¬â Arquitetura, Guia de InstalaêÂ§êÂ£o, Docker e ReferêÂªncia TêÂ©cnica
 
 ## Key Features of nanobot:
 
-ðŸª¶ **Ultra-Lightweight**: Just ~4,000 lines of core agent code â€” 99% smaller than Clawdbot.
+ê°Å¸ÂªÂ¶ **Ultra-Lightweight**: Just ~4,000 lines of core agent code ê¢â¬â 99% smaller than Clawdbot.
 
-ðŸ”¬ **Research-Ready**: Clean, readable code that's easy to understand, modify, and extend for research.
+ê°Å¸âÂ¬ **Research-Ready**: Clean, readable code that's easy to understand, modify, and extend for research.
 
-âš¡ï¸ **Lightning Fast**: Minimal footprint means faster startup, lower resource usage, and quicker iterations.
+ê¢Å¡Â¡ê¯Â¸Â **Lightning Fast**: Minimal footprint means faster startup, lower resource usage, and quicker iterations.
 
-ðŸ’Ž **Easy-to-Use**: One-click to deploy and you're ready to go.
+ê°Å¸âÅ½ **Easy-to-Use**: One-click to deploy and you're ready to go.
 
-## ðŸ†• O que este fork inclui
+## ê°Å¸â â¢ O que este fork inclui
 
-AdiÃ§Ãµes e melhorias feitas neste repositÃ³rio sobre o projeto original (~4.400 linhas de documentaÃ§Ã£o adicionadas):
+AdiêÂ§êÂµes e melhorias feitas neste repositêÂ³rio sobre o projeto original (~4.400 linhas de documentaêÂ§êÂ£o adicionadas):
 
-| AdiÃ§Ã£o | Detalhes | Linhas |
+| AdiêÂ§êÂ£o | Detalhes | Linhas |
 |--------|----------|--------|
-| **README em PT-BR** | InstalaÃ§Ã£o, Quick Start, Troubleshooting, Skills, Docker, tudo em portuguÃªs | 1.068 |
-| **GitHub Pages** | [Arquitetura](https://inematds.github.io/nanobot/) Â· [InstalaÃ§Ã£o](https://inematds.github.io/nanobot/instalacao.html) Â· [Docker](https://inematds.github.io/nanobot/docker.html) | 2.858 |
+| **README em PT-BR** | InstalaêÂ§êÂ£o, Quick Start, Troubleshooting, Skills, Docker, tudo em portuguêÂªs | 1.068 |
+| **GitHub Pages** | [Arquitetura](https://inematds.github.io/nanobot/) êÂ· [InstalaêÂ§êÂ£o](https://inematds.github.io/nanobot/instalacao.html) êÂ· [Docker](https://inematds.github.io/nanobot/docker.html) | 2.858 |
 | **Guias Markdown** | `doc/GUIA_INSTALACAO.md` + `doc/GUIA_DOCKER.md` para leigos | 520 |
-| **Skill Remotion** | 35 regras + 3 exemplos TSX do [remotion-dev](https://github.com/remotion-dev/remotion) e [inematds/remotion-skills](https://github.com/inematds/remotion-skills) | â€” |
-| **Scripts auxiliares** | `start.sh` (ativa venv), `help.sh` (guia rÃ¡pido), `diagnose.py` (diagnÃ³stico) | â€” |
-| **Aliases .bashrc** | `nb` (ativa ambiente), `nbhelp` (guia rÃ¡pido) | â€” |
+| **Skill Remotion** | 35 regras + 3 exemplos TSX do [remotion-dev](https://github.com/remotion-dev/remotion) e [inematds/remotion-skills](https://github.com/inematds/remotion-skills) | ê¢â¬â |
+| **Scripts auxiliares** | `start.sh` (ativa venv), `help.sh` (guia rêÂ¡pido), `diagnose.py` (diagnêÂ³stico) | ê¢â¬â |
+| **Aliases .bashrc** | `nb` (ativa ambiente), `nbhelp` (guia rêÂ¡pido) | ê¢â¬â |
 
-## ðŸ—ï¸ Architecture
+## ê°Å¸Ââê¯Â¸Â Architecture
 
 <p align="center">
   <img src="nanobot_arch.png" alt="nanobot architecture" width="800">
 </p>
 
-## âœ¨ Features
+## ê¢ÅÂ¨ Features
 
 <table align="center">
   <tr align="center">
-    <th><p align="center">ðŸ“ˆ 24/7 Real-Time Market Analysis</p></th>
-    <th><p align="center">ðŸš€ Full-Stack Software Engineer</p></th>
-    <th><p align="center">ðŸ“… Smart Daily Routine Manager</p></th>
-    <th><p align="center">ðŸ“š Personal Knowledge Assistant</p></th>
+    <th><p align="center">ê°Å¸âË 24/7 Real-Time Market Analysis</p></th>
+    <th><p align="center">ê°Å¸Å¡â¬ Full-Stack Software Engineer</p></th>
+    <th><p align="center">ê°Å¸ââ¦ Smart Daily Routine Manager</p></th>
+    <th><p align="center">ê°Å¸âÅ¡ Personal Knowledge Assistant</p></th>
   </tr>
   <tr>
     <td align="center"><p align="center"><img src="case/search.gif" width="180" height="400"></p></td>
@@ -59,18 +59,18 @@ AdiÃ§Ãµes e melhorias feitas neste repositÃ³rio sobre o projeto original (
     <td align="center"><p align="center"><img src="case/memory.gif" width="180" height="400"></p></td>
   </tr>
   <tr>
-    <td align="center">Discovery â€¢ Insights â€¢ Trends</td>
-    <td align="center">Develop â€¢ Deploy â€¢ Scale</td>
-    <td align="center">Schedule â€¢ Automate â€¢ Organize</td>
-    <td align="center">Learn â€¢ Memory â€¢ Reasoning</td>
+    <td align="center">Discovery ê¢â¬Â¢ Insights ê¢â¬Â¢ Trends</td>
+    <td align="center">Develop ê¢â¬Â¢ Deploy ê¢â¬Â¢ Scale</td>
+    <td align="center">Schedule ê¢â¬Â¢ Automate ê¢â¬Â¢ Organize</td>
+    <td align="center">Learn ê¢â¬Â¢ Memory ê¢â¬Â¢ Reasoning</td>
   </tr>
 </table>
 
-## ðŸ“¦ Install
+## ê°Å¸âÂ¦ Install
 
-Escolha entre **VPS direto** ou **Docker**. Ambos usam o mesmo repositÃ³rio.
+Escolha entre **VPS direto** ou **Docker**. Ambos usam o mesmo repositêÂ³rio.
 
-### OpÃ§Ã£o A: VPS Direto (recomendado)
+### OpêÂ§êÂ£o A: VPS Direto (recomendado)
 
 **1. Atualizar o sistema e instalar ferramentas:**
 
@@ -79,11 +79,11 @@ apt update && apt upgrade -y
 apt install -y python3 python3-venv python3-pip git
 ```
 
-- `python3` â€” linguagem que o nanobot usa
-- `python3-venv` â€” permite criar ambientes virtuais (o Ubuntu 24.04 nÃ£o traz por padrÃ£o)
-- `git` â€” para baixar o cÃ³digo do GitHub
+- `python3` ê¢â¬â linguagem que o nanobot usa
+- `python3-venv` ê¢â¬â permite criar ambientes virtuais (o Ubuntu 24.04 nêÂ£o traz por padrêÂ£o)
+- `git` ê¢â¬â para baixar o cêÂ³digo do GitHub
 
-**2. Clonar o repositÃ³rio:**
+**2. Clonar o repositêÂ³rio:**
 
 ```bash
 cd /root
@@ -97,7 +97,7 @@ cd nanobot
 python3 -m venv venv
 ```
 
-O venv Ã© uma cÃ³pia isolada do Python. Ele funciona como uma "caixa" onde as dependÃªncias
+O venv êÂ© uma cêÂ³pia isolada do Python. Ele funciona como uma "caixa" onde as dependêÂªncias
 do nanobot ficam separadas do sistema. Sem isso, instalar pacotes pode quebrar o Ubuntu.
 
 **4. Ativar o venv:**
@@ -106,22 +106,22 @@ do nanobot ficam separadas do sistema. Sem isso, instalar pacotes pode quebrar o
 source venv/bin/activate
 ```
 
-O prompt muda para `(venv) root@servidor:~/nanobot#` indicando que estÃ¡ ativo.
+O prompt muda para `(venv) root@servidor:~/nanobot#` indicando que estêÂ¡ ativo.
 
 > [!IMPORTANT]
-> **O que Ã© o `source`?** Quando vocÃª roda um script normal (`./start.sh`), ele abre
-> um terminal temporÃ¡rio, executa lÃ¡ dentro, e fecha â€” as mudanÃ§as morrem junto.
-> Com `source`, os comandos rodam **no seu terminal atual**, entÃ£o o venv fica ativo pra vocÃª usar.
+> **O que êÂ© o `source`?** Quando vocêÂª roda um script normal (`./start.sh`), ele abre
+> um terminal temporêÂ¡rio, executa lêÂ¡ dentro, e fecha ê¢â¬â as mudanêÂ§as morrem junto.
+> Com `source`, os comandos rodam **no seu terminal atual**, entêÂ£o o venv fica ativo pra vocêÂª usar.
 > Toda vez que abrir um novo terminal SSH, precisa rodar `source` de novo (ou usar o atalho `nb`).
 
-**5. Instalar o nanobot e dependÃªncias:**
+**5. Instalar o nanobot e dependêÂªncias:**
 
 ```bash
 pip install -e .
 ```
 
-O `pip` lÃª o `pyproject.toml` e instala tudo que o nanobot precisa (~50 pacotes) dentro do venv.
-O `-e` significa "editÃ¡vel" â€” se fizer `git pull` depois, as mudanÃ§as valem sem reinstalar.
+O `pip` lêÂª o `pyproject.toml` e instala tudo que o nanobot precisa (~50 pacotes) dentro do venv.
+O `-e` significa "editêÂ¡vel" ê¢â¬â se fizer `git pull` depois, as mudanêÂ§as valem sem reinstalar.
 
 **Resumo em uma linha:**
 
@@ -129,12 +129,12 @@ O `-e` significa "editÃ¡vel" â€” se fizer `git pull` depois, as mudanÃ§
 apt install -y python3 python3-venv git && cd /root && git clone https://github.com/inematds/nanobot.git && cd nanobot && python3 -m venv venv && source venv/bin/activate && pip install -e .
 ```
 
-### OpÃ§Ã£o B: Docker
+### OpêÂ§êÂ£o B: Docker
 
-Com Docker, **vocÃª nÃ£o precisa de venv, pip, nem ativar ambiente**. O container faz tudo isolado.
+Com Docker, **vocêÂª nêÂ£o precisa de venv, pip, nem ativar ambiente**. O container faz tudo isolado.
 
 ```bash
-# 1. Clonar o repositÃ³rio
+# 1. Clonar o repositêÂ³rio
 git clone https://github.com/inematds/nanobot.git
 cd nanobot
 
@@ -146,21 +146,21 @@ O que acontece por dentro:
 
 | Etapa | O que o Docker faz sozinho |
 |-------|---------------------------|
-| Baixa Python 3.12 | Imagem base jÃ¡ vem com Python |
+| Baixa Python 3.12 | Imagem base jêÂ¡ vem com Python |
 | Instala Node.js 20 | Para a bridge do WhatsApp |
-| Instala dependÃªncias | `uv pip install .` (todas as ~50 bibliotecas) |
+| Instala dependêÂªncias | `uv pip install .` (todas as ~50 bibliotecas) |
 | Compila bridge | `npm install && npm run build` |
-| Cria estrutura | DiretÃ³rios de config, workspace, sessions |
+| Cria estrutura | DiretêÂ³rios de config, workspace, sessions |
 | Inicia o gateway | Roda `nanobot gateway` automaticamente |
 
 > [!TIP]
 > **Vantagem do Docker:** o container reinicia sozinho se o servidor reiniciar
-> (`restart: unless-stopped`). NÃ£o precisa de systemd nem de venv.
+> (`restart: unless-stopped`). NêÂ£o precisa de systemd nem de venv.
 
 > [!NOTE]
-> Depois de construir a imagem, **pode apagar o diretÃ³rio clonado** se quiser.
-> O cÃ³digo fica dentro da imagem Docker e os dados ficam no volume `nanobot-data`.
-> PorÃ©m, se manter o diretÃ³rio, fica mais fÃ¡cil atualizar com `git pull && docker compose up -d --build`.
+> Depois de construir a imagem, **pode apagar o diretêÂ³rio clonado** se quiser.
+> O cêÂ³digo fica dentro da imagem Docker e os dados ficam no volume `nanobot-data`.
+> PorêÂ©m, se manter o diretêÂ³rio, fica mais fêÂ¡cil atualizar com `git pull && docker compose up -d --build`.
 
 **Comandos do dia a dia com Docker:**
 
@@ -172,22 +172,22 @@ O que acontece por dentro:
 | Ver logs ao vivo | `docker compose logs -f` |
 | Ver status | `docker compose exec nanobot nanobot status` |
 | Entrar no container | `docker compose exec nanobot bash` |
-| Mandar mensagem | `docker compose exec nanobot nanobot agent -m "OlÃ¡"` |
-| Atualizar cÃ³digo | `git pull && docker compose up -d --build` |
+| Mandar mensagem | `docker compose exec nanobot nanobot agent -m "OlêÂ¡"` |
+| Atualizar cêÂ³digo | `git pull && docker compose up -d --build` |
 
 > Guia completo com Docker: [`doc/GUIA_DOCKER.md`](doc/GUIA_DOCKER.md)
 
 ### Outras formas de instalar
 
 ```bash
-# Via uv (rÃ¡pido)
+# Via uv (rêÂ¡pido)
 uv tool install nanobot-ai
 
 # Via PyPI
 pip install nanobot-ai
 ```
 
-## ðŸš€ Quick Start
+## ê°Å¸Å¡â¬ Quick Start
 
 ### Passo 1: Inicializar
 
@@ -199,7 +199,7 @@ nanobot onboard
 docker compose exec nanobot nanobot onboard
 ```
 
-Isso cria a pasta `~/.nanobot/` com a configuraÃ§Ã£o padrÃ£o e o workspace do agente.
+Isso cria a pasta `~/.nanobot/` com a configuraêÂ§êÂ£o padrêÂ£o e o workspace do agente.
 
 ### Passo 2: Configurar atalhos (opcional, recomendado)
 
@@ -211,43 +211,43 @@ echo 'alias nbhelp="cd /root/nanobot && bash help.sh"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Isso cria dois atalhos que funcionam toda vez que vocÃª entrar via SSH:
+Isso cria dois atalhos que funcionam toda vez que vocêÂª entrar via SSH:
 
 | Atalho | O que faz |
 |--------|-----------|
 | `nb` | Ativa o ambiente do nanobot (mesmo que `cd /root/nanobot && source venv/bin/activate`) |
-| `nbhelp` | Mostra um guia rÃ¡pido com todos os comandos |
+| `nbhelp` | Mostra um guia rêÂ¡pido com todos os comandos |
 
 > [!TIP]
-> **O que Ã© o `.bashrc`?** Ã‰ um arquivo que o Linux lÃª automaticamente toda vez que
-> vocÃª abre um terminal ou entra via SSH. Ã‰ como uma "lista de preparaÃ§Ã£o automÃ¡tica".
+> **O que êÂ© o `.bashrc`?** êâ° um arquivo que o Linux lêÂª automaticamente toda vez que
+> vocêÂª abre um terminal ou entra via SSH. êâ° como uma "lista de preparaêÂ§êÂ£o automêÂ¡tica".
 >
-> **O que Ã© um `alias`?** Ã‰ um apelido para um comando longo. Em vez de digitar
-> `cd /root/nanobot && source venv/bin/activate`, vocÃª digita sÃ³ `nb`.
-> Funciona como o contato do celular â€” em vez de decorar o nÃºmero, salva com um nome.
+> **O que êÂ© um `alias`?** êâ° um apelido para um comando longo. Em vez de digitar
+> `cd /root/nanobot && source venv/bin/activate`, vocêÂª digita sêÂ³ `nb`.
+> Funciona como o contato do celular ê¢â¬â em vez de decorar o nêÂºmero, salva com um nome.
 
-TambÃ©m existem dois scripts na raiz do projeto:
+TambêÂ©m existem dois scripts na raiz do projeto:
 
 | Script | Como usar | O que faz |
 |--------|-----------|-----------|
 | `start.sh` | `source start.sh` | Ativa o venv (precisa do `source`) |
-| `help.sh` | `bash help.sh` | Mostra guia rÃ¡pido com todos os comandos |
+| `help.sh` | `bash help.sh` | Mostra guia rêÂ¡pido com todos os comandos |
 
 ### Passo 3: Configurar a API Key
 
 > [!CAUTION]
-> **Cuidado com os diretÃ³rios!** O nanobot usa **dois diretÃ³rios diferentes**:
+> **Cuidado com os diretêÂ³rios!** O nanobot usa **dois diretêÂ³rios diferentes**:
 >
-> | DiretÃ³rio | O que Ã© | Exemplo |
+> | DiretêÂ³rio | O que êÂ© | Exemplo |
 > |-----------|---------|---------|
-> | `~/nanobot/` | **CÃ³digo fonte** (repositÃ³rio git) | `~/nanobot/nanobot/`, `~/nanobot/README.md` |
-> | `~/.nanobot/` | **Dados e configuraÃ§Ã£o** (pasta oculta) | `~/.nanobot/config.json`, `~/.nanobot/workspace/` |
+> | `~/nanobot/` | **CêÂ³digo fonte** (repositêÂ³rio git) | `~/nanobot/nanobot/`, `~/nanobot/README.md` |
+> | `~/.nanobot/` | **Dados e configuraêÂ§êÂ£o** (pasta oculta) | `~/.nanobot/config.json`, `~/.nanobot/workspace/` |
 >
-> O arquivo de configuraÃ§Ã£o fica em **`~/.nanobot/config.json`** (com ponto!).
-> Se vocÃª editar `~/nanobot/config.json` (sem ponto), o nanobot **nÃ£o vai encontrar**.
+> O arquivo de configuraêÂ§êÂ£o fica em **`~/.nanobot/config.json`** (com ponto!).
+> Se vocêÂª editar `~/nanobot/config.json` (sem ponto), o nanobot **nêÂ£o vai encontrar**.
 
 ```bash
-# Criar o diretÃ³rio de dados (se nÃ£o existir)
+# Criar o diretêÂ³rio de dados (se nêÂ£o existir)
 mkdir -p ~/.nanobot
 
 # Copiar o exemplo como ponto de partida
@@ -259,13 +259,13 @@ nano ~/.nanobot/config.json
 
 > [!TIP]
 > **Onde conseguir API keys:**
-> - [OpenRouter](https://openrouter.ai/keys) â€” acesso a todos os modelos (recomendado)
-> - [Anthropic](https://console.anthropic.com) â€” Claude direto
-> - [OpenAI](https://platform.openai.com) â€” GPT direto
-> - [DeepSeek](https://platform.deepseek.com) â€” DeepSeek direto
-> - [Brave Search](https://brave.com/search/api/) â€” busca web (opcional)
+> - [OpenRouter](https://openrouter.ai/keys) ê¢â¬â acesso a todos os modelos (recomendado)
+> - [Anthropic](https://console.anthropic.com) ê¢â¬â Claude direto
+> - [OpenAI](https://platform.openai.com) ê¢â¬â GPT direto
+> - [DeepSeek](https://platform.deepseek.com) ê¢â¬â DeepSeek direto
+> - [Brave Search](https://brave.com/search/api/) ê¢â¬â busca web (opcional)
 
-**Exemplo mÃ­nimo com OpenRouter + Telegram** (recomendado):
+**Exemplo mêÂ­nimo com OpenRouter + Telegram** (recomendado):
 ```json
 {
   "providers": {
@@ -288,7 +288,7 @@ nano ~/.nanobot/config.json
 }
 ```
 
-**Exemplo mÃ­nimo com Anthropic direto + Telegram:**
+**Exemplo mêÂ­nimo com Anthropic direto + Telegram:**
 ```json
 {
   "providers": {
@@ -312,7 +312,7 @@ nano ~/.nanobot/config.json
 ```
 
 > [!WARNING]
-> **O nome do modelo depende do provider!** Cada provider usa seu prÃ³prio formato:
+> **O nome do modelo depende do provider!** Cada provider usa seu prêÂ³prio formato:
 >
 > | Provider | Formato do modelo | Exemplo |
 > |----------|-------------------|---------|
@@ -321,7 +321,7 @@ nano ~/.nanobot/config.json
 > | OpenAI | ID oficial OpenAI | `openai/gpt-4o` |
 > | DeepSeek | ID DeepSeek | `deepseek/deepseek-chat` |
 >
-> Consulte a pÃ¡gina do modelo no seu provider para o nome exato.
+> Consulte a pêÂ¡gina do modelo no seu provider para o nome exato.
 
 > [!IMPORTANT]
 > Depois de salvar, proteja o arquivo: `chmod 600 ~/.nanobot/config.json`
@@ -330,7 +330,7 @@ nano ~/.nanobot/config.json
 ```bash
 nanobot status
 ```
-Todos os providers com API key devem aparecer com **âœ“**. Se aparecer "not set", verifique se editou o arquivo correto (`~/.nanobot/config.json`).
+Todos os providers com API key devem aparecer com **ê¢Åâ**. Se aparecer "not set", verifique se editou o arquivo correto (`~/.nanobot/config.json`).
 
 ### Passo 4: Testar
 
@@ -344,13 +344,13 @@ nanobot agent -m "What is 2+2?"
 # VPS direto (roda em foreground, Ctrl+C para parar)
 nanobot gateway
 
-# Docker (jÃ¡ estÃ¡ rodando se usou docker compose up -d)
+# Docker (jêÂ¡ estêÂ¡ rodando se usou docker compose up -d)
 docker compose logs -f nanobot
 ```
 
 #### Autostart com systemd (recomendado para VPS)
 
-Crie o serviÃ§o para que o nanobot inicie automaticamente no boot e reinicie se crashar:
+Crie o serviêÂ§o para que o nanobot inicie automaticamente no boot e reinicie se crashar:
 
 ```bash
 cat > /etc/systemd/system/nanobot.service << 'EOF'
@@ -393,7 +393,7 @@ systemctl start nanobot.service
 | Ver log ao vivo | `journalctl -u nanobot -f` ou `tail -f ~/.nanobot/gateway.log` |
 | Desabilitar autostart | `systemctl disable nanobot` |
 
-### Passo 6: Verificar seguranÃ§a
+### Passo 6: Verificar seguranêÂ§a
 
 ```bash
 nanobot security-check
@@ -401,35 +401,35 @@ nanobot security-check
 
 That's it! You have a working AI assistant.
 
-## ðŸ”§ Uso no Dia a Dia
+## ê°Å¸âÂ§ Uso no Dia a Dia
 
 Toda vez que entrar via SSH, primeiro ative o ambiente:
 
 ```bash
-# OpÃ§Ã£o 1: atalho (se configurou no passo 2)
+# OpêÂ§êÂ£o 1: atalho (se configurou no passo 2)
 nb
 
-# OpÃ§Ã£o 2: usando o script
+# OpêÂ§êÂ£o 2: usando o script
 cd /root/nanobot
 source start.sh
 
-# OpÃ§Ã£o 3: comando completo
+# OpêÂ§êÂ£o 3: comando completo
 cd /root/nanobot && source venv/bin/activate
 ```
 
-### Comandos rÃ¡pidos
+### Comandos rêÂ¡pidos
 
 | O que quer fazer          | Comando (systemd) | Comando (manual) |
 |---------------------------|-------------------|------------------|
-| Ver configuraÃ§Ã£o          | `nanobot status` | `nanobot status` |
-| Ver se estÃ¡ rodando       | `systemctl status nanobot` | `ps aux \| grep 'nanobot gateway'` |
+| Ver configuraêÂ§êÂ£o          | `nanobot status` | `nanobot status` |
+| Ver se estêÂ¡ rodando       | `systemctl status nanobot` | `ps aux \| grep 'nanobot gateway'` |
 | Iniciar                   | `systemctl start nanobot` | `nanobot gateway` |
 | Parar                     | `systemctl stop nanobot` | `pkill -f 'nanobot gateway'` |
 | Reiniciar                 | `systemctl restart nanobot` | `pkill -f 'nanobot gateway' && nanobot gateway` |
 | Ver log ao vivo           | `journalctl -u nanobot -f` | `tail -f ~/.nanobot/gateway.log` |
-| Ver guia rÃ¡pido           | `bash help.sh` | `bash help.sh` |
+| Ver guia rêÂ¡pido           | `bash help.sh` | `bash help.sh` |
 
-### Atualizar o cÃ³digo
+### Atualizar o cêÂ³digo
 
 ```bash
 nb
@@ -437,23 +437,23 @@ git pull && pip install -e .
 systemctl restart nanobot
 ```
 
-## â“ Troubleshooting
+## ê¢Ââ Troubleshooting
 
 <details>
 <summary><b>"Error: No API key configured"</b></summary>
 
-**Causa mais comum:** config no diretÃ³rio errado.
+**Causa mais comum:** config no diretêÂ³rio errado.
 
 ```bash
-# Verificar se o config estÃ¡ no lugar certo
+# Verificar se o config estêÂ¡ no lugar certo
 cat ~/.nanobot/config.json
 
-# Se mostrar keys vazias ou arquivo nÃ£o encontrado:
+# Se mostrar keys vazias ou arquivo nêÂ£o encontrado:
 cp ~/nanobot/config.example.json ~/.nanobot/config.json
 nano ~/.nanobot/config.json   # Adicionar sua API key
 ```
 
-Lembre: `~/.nanobot/` (com ponto) â‰  `~/nanobot/` (sem ponto).
+Lembre: `~/.nanobot/` (com ponto) ê¢â°Â  `~/nanobot/` (sem ponto).
 
 </details>
 
@@ -475,37 +475,37 @@ pip install -e .
 <summary><b>nanobot status mostra providers "not set" mesmo com key configurada</b></summary>
 
 1. Verifique se editou `~/.nanobot/config.json` (com ponto)
-2. Verifique se o JSON Ã© vÃ¡lido: `python3 -c "import json; json.load(open('/root/.nanobot/config.json')); print('OK')"`
-3. Verifique se a key estÃ¡ no campo correto (ex: `providers.openrouter.apiKey`)
-4. Rode `python3 diagnose.py` na pasta do projeto para diagnÃ³stico detalhado
+2. Verifique se o JSON êÂ© vêÂ¡lido: `python3 -c "import json; json.load(open('/root/.nanobot/config.json')); print('OK')"`
+3. Verifique se a key estêÂ¡ no campo correto (ex: `providers.openrouter.apiKey`)
+4. Rode `python3 diagnose.py` na pasta do projeto para diagnêÂ³stico detalhado
 
 </details>
 
 <details>
-<summary><b>Modelo nÃ£o encontrado / erro de modelo</b></summary>
+<summary><b>Modelo nêÂ£o encontrado / erro de modelo</b></summary>
 
-Cada provider usa nomes diferentes. Verifique o nome exato na pÃ¡gina do provider:
+Cada provider usa nomes diferentes. Verifique o nome exato na pêÂ¡gina do provider:
 
-- **OpenRouter:** vÃ¡ em [openrouter.ai/models](https://openrouter.ai/models), copie o ID do modelo (ex: `anthropic/claude-sonnet-4.5`)
+- **OpenRouter:** vêÂ¡ em [openrouter.ai/models](https://openrouter.ai/models), copie o ID do modelo (ex: `anthropic/claude-sonnet-4.5`)
 - **Anthropic direto:** use o ID oficial (ex: `anthropic/claude-sonnet-4-5-20250929`)
 - **OpenAI:** use o ID oficial (ex: `openai/gpt-4o`)
 
 </details>
 
 <details>
-<summary><b>Git clone dÃ¡ "Permission denied"</b></summary>
+<summary><b>Git clone dêÂ¡ "Permission denied"</b></summary>
 
-O repositÃ³rio Ã© pÃºblico. Use HTTPS (nÃ£o SSH):
+O repositêÂ³rio êÂ© pêÂºblico. Use HTTPS (nêÂ£o SSH):
 
 ```bash
 git clone https://github.com/inematds/nanobot.git
 ```
 
-SSH sÃ³ funciona se vocÃª tiver uma chave SSH configurada no GitHub.
+SSH sêÂ³ funciona se vocêÂª tiver uma chave SSH configurada no GitHub.
 
 </details>
 
-## ðŸ–¥ï¸ Local Models (vLLM)
+## ê°Å¸âÂ¥ê¯Â¸Â Local Models (vLLM)
 
 Run nanobot with your own local models using vLLM or any OpenAI-compatible server.
 
@@ -542,9 +542,9 @@ nanobot agent -m "Hello from my local LLM!"
 > [!TIP]
 > The `apiKey` can be any non-empty string for local servers that don't require authentication.
 
-## ðŸ’¬ Chat Apps
+## ê°Å¸âÂ¬ Chat Apps
 
-Talk to your nanobot through Telegram, Discord, WhatsApp, or Feishu â€” anytime, anywhere.
+Talk to your nanobot through Telegram, Discord, WhatsApp, or Feishu ê¢â¬â anytime, anywhere.
 
 <p align="center">
   <img src="nanobot_telegram_example.png" alt="nanobot chat integrations" width="600">
@@ -562,18 +562,18 @@ Talk to your nanobot through Telegram, Discord, WhatsApp, or Feishu â€” any
 
 **1. Criar o bot**
 - Abra o Telegram e busque `@BotFather`
-- Envie `/newbot` e siga as instruÃ§Ãµes (escolha nome e username)
+- Envie `/newbot` e siga as instruêÂ§êÂµes (escolha nome e username)
 - O BotFather vai te dar um **token** como: `123456789:ABCdefGHIjklMNOpqrsTUVwxyz`
 - Copie esse token
 
 **2. Descobrir seu User ID**
 - Busque `@userinfobot` no Telegram
 - Envie qualquer mensagem para ele
-- Ele responde com seu **ID numÃ©rico** (ex: `987654321`)
+- Ele responde com seu **ID numêÂ©rico** (ex: `987654321`)
 
 **3. Configurar**
 
-Edite `~/.nanobot/config.json` e adicione/atualize a seÃ§Ã£o `channels`:
+Edite `~/.nanobot/config.json` e adicione/atualize a seêÂ§êÂ£o `channels`:
 
 ```json
 {
@@ -598,8 +598,8 @@ Edite `~/.nanobot/config.json` e adicione/atualize a seÃ§Ã£o `channels`:
 ```
 
 > [!WARNING]
-> O `allowFrom` Ã© **obrigatÃ³rio** por seguranÃ§a. Se deixar vazio `[]`, **ninguÃ©m** consegue usar o bot.
-> Coloque seu User ID numÃ©rico como string entre aspas.
+> O `allowFrom` êÂ© **obrigatêÂ³rio** por seguranêÂ§a. Se deixar vazio `[]`, **ninguêÂ©m** consegue usar o bot.
+> Coloque seu User ID numêÂ©rico como string entre aspas.
 
 **4. Rodar**
 
@@ -616,7 +616,7 @@ O bot vai ficar online no Telegram. Envie uma mensagem para ele para testar.
 
 **1. Create a bot**
 - Go to https://discord.com/developers/applications
-- Create an application â†’ Bot â†’ Add Bot
+- Create an application ê¢â â Bot ê¢â â Add Bot
 - Copy the bot token
 
 **2. Enable intents**
@@ -624,8 +624,8 @@ O bot vai ficar online no Telegram. Envie uma mensagem para ele para testar.
 - (Optional) Enable **SERVER MEMBERS INTENT** if you plan to use allow lists based on member data
 
 **3. Get your User ID**
-- Discord Settings â†’ Advanced â†’ enable **Developer Mode**
-- Right-click your avatar â†’ **Copy User ID**
+- Discord Settings ê¢â â Advanced ê¢â â enable **Developer Mode**
+- Right-click your avatar ê¢â â **Copy User ID**
 
 **4. Configure**
 
@@ -642,7 +642,7 @@ O bot vai ficar online no Telegram. Envie uma mensagem para ele para testar.
 ```
 
 **5. Invite the bot**
-- OAuth2 â†’ URL Generator
+- OAuth2 ê¢â â URL Generator
 - Scopes: `bot`
 - Bot Permissions: `Send Messages`, `Read Message History`
 - Open the generated invite URL and add the bot to your server
@@ -658,9 +658,9 @@ nanobot gateway
 <details>
 <summary><b>WhatsApp</b></summary>
 
-Requer **Node.js â‰¥18** instalado no servidor.
+Requer **Node.js ê¢â°Â¥18** instalado no servidor.
 
-**1. Instalar Node.js (se nÃ£o tiver)**
+**1. Instalar Node.js (se nêÂ£o tiver)**
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
@@ -682,12 +682,12 @@ nanobot channels login
 ```
 
 Um QR code vai aparecer no terminal. No celular:
-- Abra o WhatsApp â†’ **ConfiguraÃ§Ãµes** â†’ **Dispositivos vinculados** â†’ **Vincular dispositivo**
+- Abra o WhatsApp ê¢â â **ConfiguraêÂ§êÂµes** ê¢â â **Dispositivos vinculados** ê¢â â **Vincular dispositivo**
 - Escaneie o QR code
 
 **4. Configurar**
 
-Edite `~/.nanobot/config.json` e adicione a seÃ§Ã£o WhatsApp:
+Edite `~/.nanobot/config.json` e adicione a seêÂ§êÂ£o WhatsApp:
 
 ```json
 {
@@ -711,31 +711,31 @@ Edite `~/.nanobot/config.json` e adicione a seÃ§Ã£o WhatsApp:
 ```
 
 > [!WARNING]
-> O `allowFrom` usa o nÃºmero no formato internacional com `+` (ex: `+5511999998888`).
-> Se deixar vazio `[]`, **ninguÃ©m** consegue usar o bot.
+> O `allowFrom` usa o nêÂºmero no formato internacional com `+` (ex: `+5511999998888`).
+> Se deixar vazio `[]`, **ninguêÂ©m** consegue usar o bot.
 
 **5. Rodar** (dois terminais)
 
 ```bash
-# Terminal 1 â€” manter a bridge rodando
+# Terminal 1 ê¢â¬â manter a bridge rodando
 nanobot channels login
 
-# Terminal 2 â€” rodar o gateway
+# Terminal 2 ê¢â¬â rodar o gateway
 nanobot gateway
 ```
 
-Envie uma mensagem para o nÃºmero vinculado para testar.
+Envie uma mensagem para o nêÂºmero vinculado para testar.
 
 </details>
 
 <details>
-<summary><b>Feishu (é£žä¹¦)</b></summary>
+<summary><b>Feishu (éÂ£Å¾äÂ¹Â¦)</b></summary>
 
-Uses **WebSocket** long connection â€” no public IP required.
+Uses **WebSocket** long connection ê¢â¬â no public IP required.
 
 **1. Create a Feishu bot**
 - Visit [Feishu Open Platform](https://open.feishu.cn/app)
-- Create a new app â†’ Enable **Bot** capability
+- Create a new app ê¢â â Enable **Bot** capability
 - **Permissions**: Add `im:message` (send messages)
 - **Events**: Add `im.message.receive_v1` (receive messages)
   - Select **Long Connection** mode (requires running nanobot first to establish connection)
@@ -769,14 +769,14 @@ nanobot gateway
 ```
 
 > [!TIP]
-> Feishu uses WebSocket to receive messages â€” no webhook or public IP needed!
+> Feishu uses WebSocket to receive messages ê¢â¬â no webhook or public IP needed!
 
 </details>
 
 <details>
-<summary><b>DingTalk (é’‰é’‰)</b></summary>
+<summary><b>DingTalk (éââ°éââ°)</b></summary>
 
-Uses **Stream Mode** â€” no public IP required.
+Uses **Stream Mode** ê¢â¬â no public IP required.
 
 **1. Create a DingTalk bot**
 - Visit [DingTalk Open Platform](https://open-dev.dingtalk.com/)
@@ -812,7 +812,7 @@ nanobot gateway
 
 </details>
 
-## âš™ï¸ Configuration
+## ê¢Å¡â¢ê¯Â¸Â Configuration
 
 Config file: `~/.nanobot/config.json`
 
@@ -833,13 +833,13 @@ Config file: `~/.nanobot/config.json`
 | `dashscope` | LLM (Qwen) | [dashscope.console.aliyun.com](https://dashscope.console.aliyun.com) |
 | `moonshot` | LLM (Moonshot/Kimi) | [platform.moonshot.cn](https://platform.moonshot.cn) |
 | `zhipu` | LLM (Zhipu GLM) | [open.bigmodel.cn](https://open.bigmodel.cn) |
-| `vllm` | LLM (local, any OpenAI-compatible server) | â€” |
+| `vllm` | LLM (local, any OpenAI-compatible server) | ê¢â¬â |
 
 <details>
 <summary><b>Adding a New Provider (Developer Guide)</b></summary>
 
 nanobot uses a **Provider Registry** (`nanobot/providers/registry.py`) as the single source of truth.
-Adding a new provider only takes **2 steps** â€” no if-elif chains to touch.
+Adding a new provider only takes **2 steps** ê¢â¬â no if-elif chains to touch.
 
 **Step 1.** Add a `ProviderSpec` entry to `PROVIDERS` in `nanobot/providers/registry.py`:
 
@@ -849,7 +849,7 @@ ProviderSpec(
     keywords=("myprovider", "mymodel"),  # model-name keywords for auto-matching
     env_key="MYPROVIDER_API_KEY",        # env var for LiteLLM
     display_name="My Provider",          # shown in `nanobot status`
-    litellm_prefix="myprovider",         # auto-prefix: model â†’ myprovider/model
+    litellm_prefix="myprovider",         # auto-prefix: model ê¢â â myprovider/model
     skip_prefixes=("myprovider/",),      # don't double-prefix
 )
 ```
@@ -868,7 +868,7 @@ That's it! Environment variables, model prefixing, config matching, and `nanobot
 
 | Field | Description | Example |
 |-------|-------------|---------|
-| `litellm_prefix` | Auto-prefix model names for LiteLLM | `"dashscope"` â†’ `dashscope/qwen-max` |
+| `litellm_prefix` | Auto-prefix model names for LiteLLM | `"dashscope"` ê¢â â `dashscope/qwen-max` |
 | `skip_prefixes` | Don't prefix if model already starts with these | `("dashscope/", "openrouter/")` |
 | `env_extras` | Additional env vars to set | `(("ZHIPUAI_API_KEY", "{api_key}"),)` |
 | `model_overrides` | Per-model parameter overrides | `(("kimi-k2.5", {"temperature": 1.0}),)` |
@@ -883,64 +883,64 @@ That's it! Environment variables, model prefixing, config matching, and `nanobot
 ### Security
 
 > [!IMPORTANT]
-> **Breaking changes:** `restrictToWorkspace` agora Ã© `true` por padrÃ£o, `allowFrom` vazio agora **nega todos**, e o gateway escuta em `127.0.0.1`. Veja [SECURITY.md](./SECURITY.md) para detalhes.
+> **Breaking changes:** `restrictToWorkspace` agora êÂ© `true` por padrêÂ£o, `allowFrom` vazio agora **nega todos**, e o gateway escuta em `127.0.0.1`. Veja [SECURITY.md](./SECURITY.md) para detalhes.
 
 | Option | Default | Description |
 |--------|---------|-------------|
-| `tools.restrictToWorkspace` | `true` | Restringe todos os tools ao diretÃ³rio workspace. Previne path traversal. |
+| `tools.restrictToWorkspace` | `true` | Restringe todos os tools ao diretêÂ³rio workspace. Previne path traversal. |
 | `channels.*.allowFrom` | `[]` (deny all) | Lista de IDs permitidos. Vazio = nega todos (fail-secure). Adicione IDs para liberar. |
-| `gateway.host` | `127.0.0.1` | EndereÃ§o de bind. Use reverse proxy para acesso remoto. |
+| `gateway.host` | `127.0.0.1` | EndereêÂ§o de bind. Use reverse proxy para acesso remoto. |
 
 ```bash
-# Verificar configuraÃ§Ã£o de seguranÃ§a
+# Verificar configuraêÂ§êÂ£o de seguranêÂ§a
 nanobot security-check
 ```
 
 
-## ðŸ§© Skills (Habilidades do Agente)
+## ê°Å¸Â§Â© Skills (Habilidades do Agente)
 
-O nanobot vem com **skills** â€” pacotes de conhecimento que o agente carrega conforme necessÃ¡rio.
-Cada skill Ã© uma pasta com um `SKILL.md` (descriÃ§Ã£o + regras) e opcionalmente scripts e exemplos de cÃ³digo.
+O nanobot vem com **skills** ê¢â¬â pacotes de conhecimento que o agente carrega conforme necessêÂ¡rio.
+Cada skill êÂ© uma pasta com um `SKILL.md` (descriêÂ§êÂ£o + regras) e opcionalmente scripts e exemplos de cêÂ³digo.
 
-### Skills incluÃ­dos
+### Skills incluêÂ­dos
 
-| Skill | DescriÃ§Ã£o | Requer |
+| Skill | DescriêÂ§êÂ£o | Requer |
 |-------|-----------|--------|
-| **remotion** | CriaÃ§Ã£o de vÃ­deos em React â€” animaÃ§Ãµes, 3D, Ã¡udio, charts, captions, transitions. 35 regras + 3 exemplos de cÃ³digo | `npx` |
-| **agent-browser** | AutomaÃ§Ã£o de browser â€” navegar sites, preencher forms, screenshots, extrair dados | `agent-browser` |
-| **github** | InteraÃ§Ã£o com GitHub via `gh` CLI â€” issues, PRs, CI runs | `gh` |
-| **summarize** | Resumir/transcrever URLs, podcasts, vÃ­deos do YouTube | `summarize` |
-| **weather** | Clima e previsÃ£o do tempo (sem API key) | â€” |
-| **tmux** | Controle remoto de sessÃµes tmux | `tmux` |
-| **cron** | Agendar lembretes e tarefas recorrentes | â€” |
-| **skill-creator** | Criar ou atualizar skills do agente | â€” |
+| **remotion** | CriaêÂ§êÂ£o de vêÂ­deos em React ê¢â¬â animaêÂ§êÂµes, 3D, êÂ¡udio, charts, captions, transitions. 35 regras + 3 exemplos de cêÂ³digo | `npx` |
+| **agent-browser** | AutomaêÂ§êÂ£o de browser ê¢â¬â navegar sites, preencher forms, screenshots, extrair dados | `agent-browser` |
+| **github** | InteraêÂ§êÂ£o com GitHub via `gh` CLI ê¢â¬â issues, PRs, CI runs | `gh` |
+| **summarize** | Resumir/transcrever URLs, podcasts, vêÂ­deos do YouTube | `summarize` |
+| **weather** | Clima e previsêÂ£o do tempo (sem API key) | ê¢â¬â |
+| **tmux** | Controle remoto de sessêÂµes tmux | `tmux` |
+| **cron** | Agendar lembretes e tarefas recorrentes | ê¢â¬â |
+| **skill-creator** | Criar ou atualizar skills do agente | ê¢â¬â |
 
 ### Remotion Skill (destaque)
 
-O skill de **Remotion** Ã© o mais completo, adaptado do [repositÃ³rio oficial](https://github.com/remotion-dev/remotion).
+O skill de **Remotion** êÂ© o mais completo, adaptado do [repositêÂ³rio oficial](https://github.com/remotion-dev/remotion).
 Inclui:
 
-- **35 regras** de referÃªncia cobrindo: animaÃ§Ãµes, composiÃ§Ãµes, Ã¡udio, 3D (Three.js), charts, captions/legendas, GIFs, Lottie, mapas (Mapbox), fontes, timing/easing, transiÃ§Ãµes, FFmpeg, TailwindCSS e mais
-- **3 exemplos de cÃ³digo** prontos em TypeScript/React:
-  - `charts-bar-chart.tsx` â€” grÃ¡fico de barras animado com spring physics
-  - `text-animations-typewriter.tsx` â€” efeito typewriter com cursor piscando
-  - `text-animations-word-highlight.tsx` â€” destaque de palavra com animaÃ§Ã£o wipe
+- **35 regras** de referêÂªncia cobrindo: animaêÂ§êÂµes, composiêÂ§êÂµes, êÂ¡udio, 3D (Three.js), charts, captions/legendas, GIFs, Lottie, mapas (Mapbox), fontes, timing/easing, transiêÂ§êÂµes, FFmpeg, TailwindCSS e mais
+- **3 exemplos de cêÂ³digo** prontos em TypeScript/React:
+  - `charts-bar-chart.tsx` ê¢â¬â grêÂ¡fico de barras animado com spring physics
+  - `text-animations-typewriter.tsx` ê¢â¬â efeito typewriter com cursor piscando
+  - `text-animations-word-highlight.tsx` ê¢â¬â destaque de palavra com animaêÂ§êÂ£o wipe
 
 ```
 nanobot/skills/remotion/
-â”œâ”€â”€ SKILL.md                              â† Ãndice e referÃªncia rÃ¡pida
-â”œâ”€â”€ rules/                                â† 35 regras detalhadas
-â”‚   â”œâ”€â”€ animations.md, timing.md          #   AnimaÃ§Ãµes e interpolaÃ§Ã£o
-â”‚   â”œâ”€â”€ audio.md, audio-visualization.md  #   Ãudio e visualizaÃ§Ã£o
-â”‚   â”œâ”€â”€ 3d.md, charts.md, lottie.md       #   ConteÃºdo visual
-â”‚   â”œâ”€â”€ subtitles.md, display-captions.md #   Legendas
-â”‚   â”œâ”€â”€ transitions.md, sequencing.md     #   TransiÃ§Ãµes e sequenciamento
-â”‚   â”œâ”€â”€ ffmpeg.md, videos.md, images.md   #   MÃ­dia
-â”‚   â””â”€â”€ ...                               #   E mais 22 regras
-â””â”€â”€ rules/assets/                         â† Exemplos de cÃ³digo (.tsx)
-    â”œâ”€â”€ charts-bar-chart.tsx
-    â”œâ”€â”€ text-animations-typewriter.tsx
-    â””â”€â”€ text-animations-word-highlight.tsx
+ê¢âÅê¢ââ¬ê¢ââ¬ SKILL.md                              ê¢â Â êÂndice e referêÂªncia rêÂ¡pida
+ê¢âÅê¢ââ¬ê¢ââ¬ rules/                                ê¢â Â 35 regras detalhadas
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ animations.md, timing.md          #   AnimaêÂ§êÂµes e interpolaêÂ§êÂ£o
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ audio.md, audio-visualization.md  #   êÂudio e visualizaêÂ§êÂ£o
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ 3d.md, charts.md, lottie.md       #   ConteêÂºdo visual
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ subtitles.md, display-captions.md #   Legendas
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ transitions.md, sequencing.md     #   TransiêÂ§êÂµes e sequenciamento
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ ffmpeg.md, videos.md, images.md   #   MêÂ­dia
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ ...                               #   E mais 22 regras
+ê¢ââê¢ââ¬ê¢ââ¬ rules/assets/                         ê¢â Â Exemplos de cêÂ³digo (.tsx)
+    ê¢âÅê¢ââ¬ê¢ââ¬ charts-bar-chart.tsx
+    ê¢âÅê¢ââ¬ê¢ââ¬ text-animations-typewriter.tsx
+    ê¢ââê¢ââ¬ê¢ââ¬ text-animations-word-highlight.tsx
 ```
 
 > Fonte: [github.com/remotion-dev/remotion](https://github.com/remotion-dev/remotion) (adaptado para formato nanobot)
@@ -948,10 +948,10 @@ nanobot/skills/remotion/
 
 ### Como os skills funcionam
 
-1. O agente lÃª o `SKILL.md` para entender quando usar o skill
-2. Conforme a conversa, carrega regras especÃ­ficas (ex: `rules/audio.md` quando o assunto Ã© Ã¡udio)
-3. Skills com `requires` verificam se as ferramentas necessÃ¡rias estÃ£o instaladas
-4. Para criar seus prÃ³prios skills, use o skill `skill-creator`
+1. O agente lêÂª o `SKILL.md` para entender quando usar o skill
+2. Conforme a conversa, carrega regras especêÂ­ficas (ex: `rules/audio.md` quando o assunto êÂ© êÂ¡udio)
+3. Skills com `requires` verificam se as ferramentas necessêÂ¡rias estêÂ£o instaladas
+4. Para criar seus prêÂ³prios skills, use o skill `skill-creator`
 
 ## CLI Reference
 
@@ -983,10 +983,10 @@ nanobot cron remove <job_id>
 
 </details>
 
-## ðŸ³ Docker
+## ê°Å¸ÂÂ³ Docker
 
 O `docker-compose.yml` inclui volume persistente, limites de recursos (2GB RAM, 2 CPUs),
-e roda como usuÃ¡rio non-root. Guia completo: [`doc/GUIA_DOCKER.md`](doc/GUIA_DOCKER.md)
+e roda como usuêÂ¡rio non-root. Guia completo: [`doc/GUIA_DOCKER.md`](doc/GUIA_DOCKER.md)
 
 **Setup inicial:**
 
@@ -997,7 +997,7 @@ docker compose up -d
 # 2. Inicializar config (primeira vez)
 docker compose exec nanobot nanobot onboard
 
-# 3. Colocar sua configuraÃ§Ã£o
+# 3. Colocar sua configuraêÂ§êÂ£o
 cat > /tmp/nanobot-config.json << 'EOF'
 {
   "providers": {
@@ -1031,12 +1031,12 @@ docker compose restart
 | Ver logs ao vivo | `docker compose logs -f` |
 | Ver status | `docker compose exec nanobot nanobot status` |
 | Entrar no container | `docker compose exec nanobot bash` |
-| Atualizar cÃ³digo | `git pull && docker compose up -d --build` |
+| Atualizar cêÂ³digo | `git pull && docker compose up -d --build` |
 
 > [!NOTE]
-> Depois de construir, pode apagar o diretÃ³rio clonado se quiser.
-> O cÃ³digo fica na imagem Docker e os dados no volume `nanobot-data`.
-> Mas mantendo o diretÃ³rio, fica mais fÃ¡cil atualizar.
+> Depois de construir, pode apagar o diretêÂ³rio clonado se quiser.
+> O cêÂ³digo fica na imagem Docker e os dados no volume `nanobot-data`.
+> Mas mantendo o diretêÂ³rio, fica mais fêÂ¡cil atualizar.
 
 **Sem docker compose** (manual):
 
@@ -1049,61 +1049,61 @@ docker run -v ~/.nanobot:/home/nanobot/.nanobot -p 127.0.0.1:18790:18790 --resta
 
 | | VPS Direto | Docker |
 |--|-----------|--------|
-| Precisa de venv? | Sim | NÃ£o |
-| Precisa ativar ambiente? | Sim (`source`) | NÃ£o |
+| Precisa de venv? | Sim | NêÂ£o |
+| Precisa ativar ambiente? | Sim (`source`) | NêÂ£o |
 | Reinicia sozinho? | Sim (com systemd) | Sim |
 | Limites de recurso | Sem limite | 2GB RAM, 2 CPUs |
-| SeguranÃ§a | Root direto | UsuÃ¡rio sem privilÃ©gios |
+| SeguranêÂ§a | Root direto | UsuêÂ¡rio sem privilêÂ©gios |
 
-## ðŸ“ Project Structure
+## ê°Å¸âÂ Project Structure
 
 ```
 /root/
-â”œâ”€â”€ nanobot/                    â† CÃ“DIGO (git clone)
-â”‚   â”œâ”€â”€ nanobot/                â† CÃ³digo-fonte do bot
-â”‚   â”‚   â”œâ”€â”€ agent/              #   ðŸ§  Core agent logic (loop, context, memory, tools)
-â”‚   â”‚   â”œâ”€â”€ channels/           #   ðŸ“± Telegram, Discord, WhatsApp, Feishu, DingTalk
-â”‚   â”‚   â”œâ”€â”€ providers/          #   ðŸ¤– LLM providers (OpenRouter, Anthropic, etc.)
-â”‚   â”‚   â”œâ”€â”€ skills/             #   ðŸ§© Skills do agente
-â”‚   â”‚   â”‚   â”œâ”€â”€ remotion/       #     ðŸŽ¬ VÃ­deo em React (35 regras + exemplos)
-â”‚   â”‚   â”‚   â”œâ”€â”€ agent-browser/  #     ðŸŒ AutomaÃ§Ã£o de browser
-â”‚   â”‚   â”‚   â”œâ”€â”€ github/         #     ðŸ™ GitHub CLI
-â”‚   â”‚   â”‚   â”œâ”€â”€ summarize/      #     ðŸ“ Resumir URLs e vÃ­deos
-â”‚   â”‚   â”‚   â”œâ”€â”€ weather/        #     ðŸŒ¤ï¸ Clima
-â”‚   â”‚   â”‚   â”œâ”€â”€ tmux/           #     ðŸ§µ SessÃµes tmux
-â”‚   â”‚   â”‚   â”œâ”€â”€ cron/           #     â° Tarefas agendadas
-â”‚   â”‚   â”‚   â””â”€â”€ skill-creator/  #     ðŸ”§ Criar novos skills
-â”‚   â”‚   â”œâ”€â”€ bus/                #   ðŸšŒ Message routing
-â”‚   â”‚   â”œâ”€â”€ cron/               #   â° Scheduled tasks
-â”‚   â”‚   â”œâ”€â”€ heartbeat/          #   ðŸ’“ Proactive wake-up
-â”‚   â”‚   â”œâ”€â”€ session/            #   ðŸ’¬ Conversation sessions
-â”‚   â”‚   â”œâ”€â”€ config/             #   âš™ï¸ Configuration
-â”‚   â”‚   â””â”€â”€ cli/                #   ðŸ–¥ï¸ Commands
-â”‚   â”œâ”€â”€ bridge/                 â† Bridge WhatsApp (Node.js)
-â”‚   â”œâ”€â”€ doc/                    â† DocumentaÃ§Ã£o
-â”‚   â”‚   â”œâ”€â”€ GUIA_INSTALACAO.md  #   Guia completo para leigos
-â”‚   â”‚   â””â”€â”€ GUIA_DOCKER.md      #   Guia completo Docker
-â”‚   â”œâ”€â”€ venv/                   â† Ambiente virtual Python (criado na instalaÃ§Ã£o)
-â”‚   â”œâ”€â”€ start.sh                â† Script: ativa o venv (usar com source)
-â”‚   â”œâ”€â”€ help.sh                 â† Script: mostra guia rÃ¡pido de comandos
-â”‚   â”œâ”€â”€ pyproject.toml          â† DependÃªncias do projeto
-â”‚   â””â”€â”€ config.example.json     â† Exemplo de configuraÃ§Ã£o
-â”‚
-â””â”€â”€ .nanobot/                   â† DADOS DE RUNTIME (criado pelo onboard)
-    â”œâ”€â”€ config.json             â† ConfiguraÃ§Ã£o real (chaves, modelo, canais)
-    â”œâ”€â”€ gateway.log             â† Log do servidor
-    â”œâ”€â”€ sessions/               â† HistÃ³rico de conversas
-    â”œâ”€â”€ cron/                   â† Tarefas agendadas
-    â””â”€â”€ workspace/              â† Personalidade do agente (SOUL.md, AGENTS.md)
+ê¢âÅê¢ââ¬ê¢ââ¬ nanobot/                    ê¢â Â CêâDIGO (git clone)
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ nanobot/                ê¢â Â CêÂ³digo-fonte do bot
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ agent/              #   ê°Å¸Â§Â  Core agent logic (loop, context, memory, tools)
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ channels/           #   ê°Å¸âÂ± Telegram, Discord, WhatsApp, Feishu, DingTalk
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ providers/          #   ê°Å¸Â¤â LLM providers (OpenRouter, Anthropic, etc.)
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ skills/             #   ê°Å¸Â§Â© Skills do agente
+ê¢ââ   ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ remotion/       #     ê°Å¸Å½Â¬ VêÂ­deo em React (35 regras + exemplos)
+ê¢ââ   ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ agent-browser/  #     ê°Å¸ÅÂ AutomaêÂ§êÂ£o de browser
+ê¢ââ   ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ github/         #     ê°Å¸Ââ¢ GitHub CLI
+ê¢ââ   ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ summarize/      #     ê°Å¸âÂ Resumir URLs e vêÂ­deos
+ê¢ââ   ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ weather/        #     ê°Å¸ÅÂ¤ê¯Â¸Â Clima
+ê¢ââ   ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ tmux/           #     ê°Å¸Â§Âµ SessêÂµes tmux
+ê¢ââ   ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ cron/           #     ê¢ÂÂ° Tarefas agendadas
+ê¢ââ   ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ skill-creator/  #     ê°Å¸âÂ§ Criar novos skills
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ bus/                #   ê°Å¸Å¡Å Message routing
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ cron/               #   ê¢ÂÂ° Scheduled tasks
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ heartbeat/          #   ê°Å¸ââ Proactive wake-up
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ session/            #   ê°Å¸âÂ¬ Conversation sessions
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ config/             #   ê¢Å¡â¢ê¯Â¸Â Configuration
+ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ cli/                #   ê°Å¸âÂ¥ê¯Â¸Â Commands
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ bridge/                 ê¢â Â Bridge WhatsApp (Node.js)
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ doc/                    ê¢â Â DocumentaêÂ§êÂ£o
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ GUIA_INSTALACAO.md  #   Guia completo para leigos
+ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ GUIA_DOCKER.md      #   Guia completo Docker
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ venv/                   ê¢â Â Ambiente virtual Python (criado na instalaêÂ§êÂ£o)
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ start.sh                ê¢â Â Script: ativa o venv (usar com source)
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ help.sh                 ê¢â Â Script: mostra guia rêÂ¡pido de comandos
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ pyproject.toml          ê¢â Â DependêÂªncias do projeto
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ config.example.json     ê¢â Â Exemplo de configuraêÂ§êÂ£o
+ê¢ââ
+ê¢ââê¢ââ¬ê¢ââ¬ .nanobot/                   ê¢â Â DADOS DE RUNTIME (criado pelo onboard)
+    ê¢âÅê¢ââ¬ê¢ââ¬ config.json             ê¢â Â ConfiguraêÂ§êÂ£o real (chaves, modelo, canais)
+    ê¢âÅê¢ââ¬ê¢ââ¬ gateway.log             ê¢â Â Log do servidor
+    ê¢âÅê¢ââ¬ê¢ââ¬ sessions/               ê¢â Â HistêÂ³rico de conversas
+    ê¢âÅê¢ââ¬ê¢ââ¬ cron/                   ê¢â Â Tarefas agendadas
+    ê¢ââê¢ââ¬ê¢ââ¬ workspace/              ê¢â Â Personalidade do agente (SOUL.md, AGENTS.md)
 ```
 
 > [!CAUTION]
-> Existem **DOIS** diretÃ³rios parecidos. O nanobot lÃª a configuraÃ§Ã£o de `~/.nanobot/config.json`
-> (com ponto). O arquivo `~/nanobot/config.example.json` (sem ponto) Ã© apenas um exemplo.
+> Existem **DOIS** diretêÂ³rios parecidos. O nanobot lêÂª a configuraêÂ§êÂ£o de `~/.nanobot/config.json`
+> (com ponto). O arquivo `~/nanobot/config.example.json` (sem ponto) êÂ© apenas um exemplo.
 
-## ðŸ”— CrÃ©ditos
+## ê°Å¸ââ CrêÂ©ditos
 
-Este projeto Ã© um fork de [HKUDS/nanobot](https://github.com/HKUDS/nanobot), com adiÃ§Ãµes de documentaÃ§Ã£o, skills e ferramentas auxiliares.
+Este projeto êÂ© um fork de [HKUDS/nanobot](https://github.com/HKUDS/nanobot), com adiêÂ§êÂµes de documentaêÂ§êÂ£o, skills e ferramentas auxiliares.
 
 <p align="center">
   <sub>nanobot is for educational, research, and technical exchange purposes only</sub>
@@ -1111,4 +1111,4 @@ Este projeto Ã© um fork de [HKUDS/nanobot](https://github.com/HKUDS/nanobot), 
 
 ---
 
-Projeto adaptado da comunidade INEMA TDS - Marca Arckhe
+Projeto  - ARCKHÉe
