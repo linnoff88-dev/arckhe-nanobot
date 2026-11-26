@@ -25,7 +25,7 @@ VPS Direto:                          Docker:
 ### 1. Clonar o repositorio (se ainda nao tem)
 
 ```bash
-git clone https://github.com/inematds/nanobot.git
+git clone https://github.com/linnoff88-dev/nanobot.git
 cd nanobot
 ```
 

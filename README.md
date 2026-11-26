@@ -4,7 +4,7 @@
   <p>
     <img src="https://img.shields.io/badge/python-ê¢â°Â¥3.11-blue" alt="Python">
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-    <a href="https://inematds.github.io/nanobot/"><img src="https://img.shields.io/badge/ê°Å¸ââ_DocumentaêÂ§êÂ£o_Completa-GitHub_Pages-00d4ff?style=for-the-badge&logo=github" alt="Docs"></a>
+    <a href="https://linnoff88-dev.github.io/arckhe-/"><img src="https://img.shields.io/badge/ê°Å¸ââ_DocumentaêÂ§êÂ£o_Completa-GitHub_Pages-00d4ff?style=for-the-badge&logo=github" alt="Docs"></a>
   </p>
 </div>
 
@@ -12,7 +12,7 @@
 
 ê¢Å¡Â¡ê¯Â¸Â Delivers core agent functionality in just **~4,000** lines of code.
 
-> **ê°Å¸ââ [DocumentaêÂ§êÂ£o completa no GitHub Pages](https://inematds.github.io/nanobot/)** ê¢â¬â Arquitetura, Guia de InstalaêÂ§êÂ£o, Docker e ReferêÂªncia TêÂ©cnica
+> **ê°Å¸ââ [DocumentaêÂ§êÂ£o completa no GitHub Pages](https://linnoff88-dev.github.io/arckhe-/)** ê¢â¬â Arquitetura, Guia de InstalaêÂ§êÂ£o, Docker e ReferêÂªncia TêÂ©cnica
 
 ## Key Features of nanobot:
 
@@ -31,9 +31,9 @@ AdiêÂ§êÂµes e melhorias feitas neste repositêÂ³rio sobre o projet
 | AdiêÂ§êÂ£o | Detalhes | Linhas |
 |--------|----------|--------|
 | **README em PT-BR** | InstalaêÂ§êÂ£o, Quick Start, Troubleshooting, Skills, Docker, tudo em portuguêÂªs | 1.068 |
-| **GitHub Pages** | [Arquitetura](https://inematds.github.io/nanobot/) êÂ· [InstalaêÂ§êÂ£o](https://inematds.github.io/nanobot/instalacao.html) êÂ· [Docker](https://inematds.github.io/nanobot/docker.html) | 2.858 |
+| **GitHub Pages** | [Arquitetura](https://linnoff88-dev.github.io/arckhe-/) êÂ· [InstalaêÂ§êÂ£o](https://linnoff88-dev.github.io/arckhe-/instalacao.html) êÂ· [Docker](https://linnoff88-dev.github.io/arckhe-/docker.html) | 2.858 |
 | **Guias Markdown** | `doc/GUIA_INSTALACAO.md` + `doc/GUIA_DOCKER.md` para leigos | 520 |
-| **Skill Remotion** | 35 regras + 3 exemplos TSX do [remotion-dev](https://github.com/remotion-dev/remotion) e [inematds/remotion-skills](https://github.com/inematds/remotion-skills) | ê¢â¬â |
+| **Skill Remotion** | 35 regras + 3 exemplos TSX do [remotion-dev](https://github.com/remotion-dev/remotion) e [linnoff88-dev/remotion-skills](https://github.com/linnoff88-dev/remotion-skills) | ê¢â¬â |
 | **Scripts auxiliares** | `start.sh` (ativa venv), `help.sh` (guia rêÂ¡pido), `diagnose.py` (diagnêÂ³stico) | ê¢â¬â |
 | **Aliases .bashrc** | `nb` (ativa ambiente), `nbhelp` (guia rêÂ¡pido) | ê¢â¬â |
 
@@ -87,7 +87,7 @@ apt install -y python3 python3-venv python3-pip git
 
 ```bash
 cd /root
-git clone https://github.com/inematds/nanobot.git
+git clone https://github.com/linnoff88-dev/nanobot.git
 cd nanobot
 ```
 
@@ -126,7 +126,7 @@ O `-e` significa "editêÂ¡vel" ê¢â¬â se fizer `git pull` depois, 
 **Resumo em uma linha:**
 
 ```bash
-apt install -y python3 python3-venv git && cd /root && git clone https://github.com/inematds/nanobot.git && cd nanobot && python3 -m venv venv && source venv/bin/activate && pip install -e .
+apt install -y python3 python3-venv git && cd /root && git clone https://github.com/linnoff88-dev/nanobot.git && cd nanobot && python3 -m venv venv && source venv/bin/activate && pip install -e .
 ```
 
 ### OpêÂ§êÂ£o B: Docker
@@ -135,7 +135,7 @@ Com Docker, **vocêÂª nêÂ£o precisa de venv, pip, nem ativar ambiente**
 
 ```bash
 # 1. Clonar o repositêÂ³rio
-git clone https://github.com/inematds/nanobot.git
+git clone https://github.com/linnoff88-dev/nanobot.git
 cd nanobot
 
 # 2. Construir e subir (leva 2-3 minutos na primeira vez)
@@ -498,7 +498,7 @@ Cada provider usa nomes diferentes. Verifique o nome exato na pêÂ¡gina do p
 O repositêÂ³rio êÂ© pêÂºblico. Use HTTPS (nêÂ£o SSH):
 
 ```bash
-git clone https://github.com/inematds/nanobot.git
+git clone https://github.com/linnoff88-dev/nanobot.git
 ```
 
 SSH sêÂ³ funciona se vocêÂª tiver uma chave SSH configurada no GitHub.
@@ -944,7 +944,7 @@ nanobot/skills/remotion/
 ```
 
 > Fonte: [github.com/remotion-dev/remotion](https://github.com/remotion-dev/remotion) (adaptado para formato nanobot)
-> Fork com exemplos: [github.com/inematds/remotion-skills](https://github.com/inematds/remotion-skills)
+> Fork com exemplos: [github.com/linnoff88-dev/remotion-skills](https://github.com/linnoff88-dev/remotion-skills)
 
 ### Como os skills funcionam
 

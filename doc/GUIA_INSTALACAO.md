@@ -32,7 +32,7 @@ apt install -y python3 python3-venv python3-pip git
 
 ```bash
 cd /root
-git clone https://github.com/inematds/nanobot.git
+git clone https://github.com/linnoff88-dev/nanobot.git
 cd nanobot
 ```
 Baixa todo o codigo do GitHub pra `/root/nanobot/`. O `cd` entra na pasta.
@@ -186,7 +186,7 @@ nohup python -m nanobot gateway > ~/.nanobot/gateway.log 2>&1 &
 ### Resumo da instalacao em uma linha
 
 ```bash
-apt install -y python3 python3-venv git && cd /root && git clone https://github.com/inematds/nanobot.git && cd nanobot && python3 -m venv venv && source venv/bin/activate && pip install -e . && nanobot onboard
+apt install -y python3 python3-venv git && cd /root && git clone https://github.com/linnoff88-dev/nanobot.git && cd nanobot && python3 -m venv venv && source venv/bin/activate && pip install -e . && nanobot onboard
 ```
 
 ---
